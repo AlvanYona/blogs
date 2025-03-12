@@ -18,7 +18,7 @@ const BlogHeader: FC<BlogHeaderProps> = async ({ slug }) => {
   const post = await getBlog(slug);
 
   return (
-    <main className="container py-12">
+    <main className="container mx-auto py-12">
       <article className="mx-auto max-w-3xl">
         <div className="mb-8 space-y-4">
           <Link

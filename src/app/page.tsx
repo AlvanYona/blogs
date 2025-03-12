@@ -18,7 +18,7 @@ import myImageLoader from "../../my/image/loader"
 const Home = async () => {
   const homes = await getBlogs();
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="container mx-auto flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container px-4 md:px-6">

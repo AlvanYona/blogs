@@ -22,7 +22,7 @@ export default async function CategoriesPage() {
   // }
 
   return (
-    <div className="container px-4 md:px-6 py-12">
+    <div className="container mx-auto px-4 md:px-6 py-12">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
